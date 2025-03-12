@@ -27,11 +27,11 @@ All models are evaluated against six consistent real-world test profiles, files 
 
 ### k-Nearest Neighbors Models  
 - `mfa-Knn-testsets-split.py` - Analyzes how different train/test split ratios affect kNN model performance
-- `mfa-Knn-generate-model.py` - Implements kNN model training and evaluation with optimized parameters
+- `mfa-Knn-generate-model.py` - Trains and evaluates kNN models with optimized parameters
 
 ### Artificial Neural Network Models
 - `mfa-ANN-testsets-split.py` - Analyzes how different train/test split ratios affect ANN model performance
-- `mfa-ANN-generate-model.py` - Trains and evaluates ANN models using the optimal architecture and parameters
+- `mfa-ANN-generate-model.py` - Trains and evaluates ANN models using the chosen architecture and parameters
 - `mfa-ANN-layers.py` - Experiments with different neural network architectures to optimize layer configuration
 
 Each implementation includes:
